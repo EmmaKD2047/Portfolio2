@@ -106,6 +106,7 @@ body::-webkit-scrollbar-thumb{
     right: 0;
     transition: background 250ms ease-in;
     background: var(--background);
+    z-index: 9;
 }
 
 .nav-scrolled{
