@@ -32,10 +32,6 @@ body::-webkit-scrollbar-thumb{
     .projectzzz{
         flex-wrap: wrap;
     }
-
-    .meet, .pp{
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 1070px) {
@@ -302,8 +298,7 @@ h4{
 .meet, .pp, .ip, .bt{
     width: 350px;
     height: 200px;
-    margin: 0;
-    padding: 15px;
+    margin: 15px;
     transition: 1s;
 }
 
@@ -350,8 +345,8 @@ h4{
 
 .contact{
     background-color: black;
-    height: 300px;
     text-align: center;
+    padding-bottom: 120px;
 }
 
 #h12{
@@ -393,15 +388,16 @@ h4{
 }
 
 .modal-content{
-    width: 55%;
-    height: minmax(450px, auto);
+    width: 60%;
     background-color: white;
     border-radius: 5px;
     text-align: center;
-    position: relative;
     margin-top: 5%;
     margin-left: 22%;
     position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
 }
 
 .modal-content img{
